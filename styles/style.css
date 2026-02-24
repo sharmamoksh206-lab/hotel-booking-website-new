@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: salin;
+  src: url(/fonts/Fontspring-DEMO-salin-medium.otf);
+}
+@font-face {
+  font-family: salin-regular;
+  src: url(/fonts/Fontspring-DEMO-salin-regular.otf);
+}
+@font-face {
+  font-family: inter-regular;
+  src: url(/fonts/Inter-Regular.otf);
+}
+
+header {
+  width: 100%;
+  /* background-color: aqua; */
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 20px 100px;
+  align-items: center;
+}
+.container-links {
+  width: 30%;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: salin;
+  font-size: 2rem;
+}
+.nav-item a {
+  text-decoration: none;
+  font-family: salin-regular;
+  font-size: 1rem;
+  font-weight: 200;
+  color: rgb(61, 61, 61);
+}
+.container-buttons-nav {
+  display: flex;
+  width: 17%;
+  justify-content: space-evenly;
+}
+.container-buttons-nav button {
+  padding: 0.3rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.container-buttons-nav button a {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 1rem;
+}
+.btn-primary a {
+  color: white;
+}
+.btn-primary {
+  border: none;
+  background-color: #1d64ec;
+}
+.btn-outline a {
+  color: #1d64ec;
+}
+.btn-outline {
+  border: 1px solid #1d64ec;
+  background-color: white;
+  
+  
+}
+.btn-outline:hover {
+ a{
+    color: white;
+ }
+  background-color: #1d64ec;
+}
+
+.btn-primary:hover {
+  a{
+    color:#1d64ec ;
+
+  }
+  background-color: white;
+border: 1px solid #1d64ec;
+}
+
+.hero-section{
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-container{
+  width: 100%;
+ min-height: 30vh;
+  background-image: url(/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
+   background-size:cover;
+  background-position:center 60%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 100px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 40px;
+    color: white;
+    font-family: poppins;
+  }
+  p{
+    font-size: 18px;
+    font-family: poppins;
+    color: white;
+  }
+
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-signup-button{
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: white;
+  transform: translateY(-30px);
+  border-radius: 50px;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+}
+.hero-signup-div{
+padding: 0px 40px;
+}
+.hero-signup-div-p1{
+  color: black;
+  font-size: 16px;
+  font-family: salin-regular;
+}
+.hero-signup-div-p2{
+   color: rgb(110, 110, 110);
+   font-family: salin-regular;
+   font-size: 14px;
+}
+
+.check-in{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.check-out{
+  border-right: 1px solid grey;
+}
+.arrow-button{
+  background-color: #1d64ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  border-radius: 50%;
+}
+
+
+.popular-destinations{
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  h1{
+    font-family: salin-regular;
+    color: rgb(46, 46, 46);
+  }
+}
+.popular-destinations-images-section{
+  width: 100%;
+  display: flex;
+ 
+  gap: 30px;
+}
+.popular-destinations-image-box{
+  width: calc(100% / 4);
+  height: 40vh;
+   border-radius: 20px;
+  /* background-color: aliceblue; */
+  display: flex;
+  cursor: pointer;
+  align-items: end;
+transition: all 1s;
+
+}
+.cities-box-2{
+display: flex;
+gap: 20px;
+
+
+flex-direction: column;
+div{
+  border-radius: 20px;
+}
+}
+.big-box{
+width: 100%;
+display: flex;
+  align-items: end;
+height: 55%;
+}
+.small-box{
+  width: 100%;display: flex;
+  align-items: end;
+
+height: 45%;
+}
+.city-1{
+  background-image: url(/cities/spain.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-2{
+  background-image: url(/cities/london.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-3{
+  background-image: url(/cities/lisbon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-4{
+  background-image: url(/cities/croatia.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-5{
+  background-image: url(/cities/bratilva.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-6{
+  background-image: url(/cities/copenhangen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.city-tag{
+  padding: 5px 18px;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: inline-block;
+  font-family: salin-regular;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+
+}
+
+
+.popular-destinations-image-box:hover{
+  background-size: 102%;
+  
+}
+.big-box:hover{
+ background-size: 102%;
+}
+.small-box:hover{
+ background-size: 102%;
+}
+
+
+
+.loved-hotel-section{
+   width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+h1{
+    font-family: salin-regular;
+    color: rgb(46, 46, 46);
+  }
+}
+.loved-hotel-box img{
+width: 250px;
+}
+
+.loved-hotel-box{
+  display: flex;
+  flex-direction: column;
+  
+  h3{
+font-size: 16px;
+font-family: salin-regular;
+  }
+  p{
+    font-family: inter-regular;
+    
+  }
+  h2{
+    font-family: poppins;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+      width: 20px;
+    }
+  }
+}
