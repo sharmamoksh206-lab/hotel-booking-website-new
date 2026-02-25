@@ -78,38 +78,35 @@ nav {
 .btn-outline {
   border: 1px solid #1d64ec;
   background-color: white;
-  
-  
 }
 .btn-outline:hover {
- a{
+  a {
     color: white;
- }
+  }
   background-color: #1d64ec;
 }
 
 .btn-primary:hover {
-  a{
-    color:#1d64ec ;
-
+  a {
+    color: #1d64ec;
   }
   background-color: white;
-border: 1px solid #1d64ec;
+  border: 1px solid #1d64ec;
 }
 
-.hero-section{
+.hero-section {
   width: 100%;
   padding: 20px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero-container{
+.hero-container {
   width: 100%;
- min-height: 30vh;
+  min-height: 30vh;
   background-image: url(/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
-   background-size:cover;
-  background-position:center 60%;
+  background-size: cover;
+  background-position: center 60%;
   background-repeat: no-repeat;
   border-radius: 20px;
   box-shadow: inset 1px 1px 100px black;
@@ -117,24 +114,23 @@ border: 1px solid #1d64ec;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  h1{
+  h1 {
     font-size: 40px;
     color: white;
     font-family: poppins;
   }
-  p{
+  p {
     font-size: 18px;
     font-family: poppins;
     color: white;
   }
-
 }
-.hero-text{
+.hero-text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero-signup-button{
+.hero-signup-button {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
@@ -145,28 +141,28 @@ border: 1px solid #1d64ec;
   border-radius: 50px;
   box-shadow: 1px 1px 10px rgb(163, 163, 163);
 }
-.hero-signup-div{
-padding: 0px 40px;
+.hero-signup-div {
+  padding: 0px 40px;
 }
-.hero-signup-div-p1{
+.hero-signup-div-p1 {
   color: black;
   font-size: 16px;
   font-family: salin-regular;
 }
-.hero-signup-div-p2{
-   color: rgb(110, 110, 110);
-   font-family: salin-regular;
-   font-size: 14px;
+.hero-signup-div-p2 {
+  color: rgb(110, 110, 110);
+  font-family: salin-regular;
+  font-size: 14px;
 }
 
-.check-in{
+.check-in {
   border-left: 1px solid grey;
   border-right: 1px solid grey;
 }
-.check-out{
+.check-out {
   border-right: 1px solid grey;
 }
-.arrow-button{
+.arrow-button {
   background-color: #1d64ec;
   display: flex;
   align-items: center;
@@ -175,88 +171,86 @@ padding: 0px 40px;
   border-radius: 50%;
 }
 
-
-.popular-destinations{
+.popular-destinations {
   width: 100%;
   padding: 20px 100px;
   display: flex;
   gap: 20px;
   flex-direction: column;
-  h1{
+  h1 {
     font-family: salin-regular;
     color: rgb(46, 46, 46);
   }
 }
-.popular-destinations-images-section{
+.popular-destinations-images-section {
   width: 100%;
   display: flex;
- 
+
   gap: 30px;
 }
-.popular-destinations-image-box{
+.popular-destinations-image-box {
   width: calc(100% / 4);
   height: 40vh;
-   border-radius: 20px;
+  border-radius: 20px;
   /* background-color: aliceblue; */
   display: flex;
   cursor: pointer;
   align-items: end;
-transition: all 1s;
-
+  transition: all 1s;
 }
-.cities-box-2{
-display: flex;
-gap: 20px;
+.cities-box-2 {
+  display: flex;
+  gap: 20px;
 
-
-flex-direction: column;
-div{
-  border-radius: 20px;
+  flex-direction: column;
+  div {
+    border-radius: 20px;
+  }
 }
-}
-.big-box{
-width: 100%;
-display: flex;
+.big-box {
+  width: 100%;
+  display: flex;
   align-items: end;
-height: 55%;
+  height: 55%;
 }
-.small-box{
-  width: 100%;display: flex;
+.small-box {
+  width: 100%;
+  display: flex;
   align-items: end;
 
-height: 45%;
+  height: 45%;
 }
-.city-1{
+.city-1 {
   background-image: url(/cities/spain.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-2{
+.city-2 {
   background-image: url(/cities/london.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-3{
+.city-3 {
   background-image: url(/cities/lisbon.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-4{
+.city-4 {
   background-image: url(/cities/croatia.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-5{
+.city-5 {
   background-image: url(/cities/bratilva.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-6{
+.city-6 {
   background-image: url(/cities/copenhangen.jpg);
   background-position: center;
   background-size: cover;
 }
-.city-tag{
+.city-tag {
   padding: 5px 18px;
   background-color: rgba(255, 255, 255, 0.726);
   display: inline-block;
@@ -264,58 +258,93 @@ height: 45%;
   border-radius: 30px;
   margin-bottom: 15px;
   margin-left: 15px;
-
 }
 
-
-.popular-destinations-image-box:hover{
+.popular-destinations-image-box:hover {
   background-size: 102%;
-  
 }
-.big-box:hover{
- background-size: 102%;
+.big-box:hover {
+  background-size: 102%;
 }
-.small-box:hover{
- background-size: 102%;
+.small-box:hover {
+  background-size: 102%;
 }
 
-
-
-.loved-hotel-section{
-   width: 100%;
+.loved-hotel-section {
+  width: 100%;
   padding: 20px 100px;
   display: flex;
   gap: 20px;
   flex-direction: column;
-h1{
+  h1 {
     font-family: salin-regular;
     color: rgb(46, 46, 46);
   }
 }
-.loved-hotel-box img{
-width: 250px;
+.loved-hotel-box img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
 }
 
-.loved-hotel-box{
+.loved-hotel-box {
   display: flex;
   flex-direction: column;
-  
-  h3{
-font-size: 16px;
-font-family: salin-regular;
-  }
-  p{
-    font-family: inter-regular;
-    
-  }
-  h2{
-    font-family: poppins;
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(228, 228, 228);
+  h3 {
     font-size: 16px;
+    font-family: salin-regular;
+  }
+  p {
+    font-family: inter-regular;
+    margin-top: 5px;
+    color: rgb(90, 90, 90);
+  }
+  h2 {
+    font-family: poppins;
+    font-size: 18px;
     display: flex;
     align-items: center;
+    margin-top: 10px;
     justify-content: space-between;
-    img{
+    img {
       width: 20px;
     }
   }
+  h3 {
+    margin-top: 15px;
+  }
+}
+.hotel-loved-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.material-symbols-outlined {
+  font-family: poppins;
+}
+.rating-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  top: 10px;
+  align-items: center;
+  gap: 200px;
+}
+.rating {
+  font-family: salin-regular;
+  background-color: #e1ffd7;
+  color: #039e54;
+  padding: 5px 18px;
+  border-radius: 15px;
+}
+.upper-loved-hotel-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
